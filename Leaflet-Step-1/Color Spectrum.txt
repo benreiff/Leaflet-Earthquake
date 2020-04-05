@@ -1,0 +1,10 @@
+120 	#00ff00 - lime green
+135 	#00ff40 - green
+150 	#00ff80 - aqua
+165 	#00ffbf - aqua blue
+180 	#00ffff - blue aqua
+195 	#00bfff - light blue
+210 	#0080ff - pale blue
+225 	#0040ff - scrubs
+240 	#0000ff	- royal
+255 	#4000ff - lavender
