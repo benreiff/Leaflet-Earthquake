@@ -14,7 +14,7 @@ The USGS provides earthquake data in a number of different formats, updated ever
 
 2. **Import & Visualize the Data**
 
-   ![Final_Map]
+   ![Final_Map](Leaflet-Step-1/Images/Final_Map.JPG)
 
    Create a map using Leaflet that plots all of the earthquakes from your data set based on their longitude and latitude.
 
