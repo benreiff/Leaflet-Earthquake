@@ -8,7 +8,7 @@ The USGS provides scientific data about natural hazards, the health of our ecosy
 
    ![3-Data](Leaflet-Step-1/Images/USGS_webpage_header.PNG)
 
-The USGS provides earthquake data in a number of different formats, updated every 5 minutes on the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php). I chose the catagory providing all earthquakes in a 24-hour period, which returned a JSON representation of that data.
+The USGS provides earthquake data in a number of different formats, updated every 5 minutes on the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php). I chose the catagory providing information on all earthquakes in a 24-hour period, which returned a JSON representation of that data.
 
    ![USGS_GeoJSON](Leaflet-Step-1/Images/USGS_GeoJson.PNG)
 
