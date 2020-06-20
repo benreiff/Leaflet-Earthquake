@@ -26,18 +26,6 @@ The USGS provides scientific data about natural hazards, the health of our ecosy
 
 - - -
 
-### Level 2: More Data (Optional)
-
-![5-Advanced](Images/5-Advanced.png)
-
-The USGS wants you to plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it along side your original set of data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
-
-In this step we are going to..
-
-* Plot a second data set on our map.
-
-* Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
-
 * Add layer controls to our map.
 
 - - -
@@ -51,8 +39,6 @@ Your final product will be assessed on the following metrics:
 * Visual appearance
 
 * Professionalism
-
-**Good luck!**
 
 ### Copyright
 
