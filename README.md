@@ -12,7 +12,7 @@ The USGS provides earthquake data in a number of different formats, updated ever
 
 ![USGS_GeoJSON](Leaflet-Step-1/Images/USGS_GeoJson.PNG)
 
-2. **Import & Visualize the Data**
+### 2. **Import & Visualize the Data**
 
 ![Final_Map](Leaflet-Step-1/Images/FinalMap.PNG)
 
