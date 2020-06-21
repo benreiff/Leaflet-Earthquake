@@ -4,7 +4,7 @@
 
 The USGS provides scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. They collect data from all over the world each day, which I used to create a data visualization on the occurence of  earthquakes.
 
-1. **Choice of a Dataset**
+### 1. **Choice of a Dataset**
 
 ![3-Data](Leaflet-Step-1/Images/USGS_webpage_header.PNG)
 
