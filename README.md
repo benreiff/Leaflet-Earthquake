@@ -18,7 +18,7 @@ The USGS provides earthquake data in a number of different formats, updated ever
 
 I created an interactive map using Leaflet that plots all earthquakes from the data set based on longitude and latitude.
 
-* data markers should reflect the magnitude of the earthquake in their size and color. Earthquakes with higher magnitudes should appear larger and darker in color.
+* My data markers reflect the magnitude of each earthquake in both size and color. Earthquakes with higher magnitudes should appear larger and darker in color.
 
 * Include popups that provide additional information about the earthquake when a marker is clicked.
 
