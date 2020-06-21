@@ -22,16 +22,6 @@ I created an interactive map using Leaflet that plots all earthquakes from the d
 
 * Popups on each circle marker provide location, time and magnitude of the earthquake when clicked.
 
-* Create a legend that will provide context for your map data.
-
-* Your visualization should look something like the map above.
-
-- - -
-
-* Add layer controls to our map.
-
-- - -
-
 ### Assessment
 
 Your final product will be assessed on the following metrics:
