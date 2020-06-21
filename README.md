@@ -14,9 +14,9 @@ The USGS provides earthquake data in a number of different formats, updated ever
 
 ### 2. **Import & Visualize the Data**
 
-![Final_Map](Leaflet-Step-1/Images/FinalMap.PNG)
-
 I created an interactive map using Leaflet that plots all earthquakes from the data set based on latitude and longitude.
+
+![Final_Map](Leaflet-Step-1/Images/FinalMap.PNG)
 
 * Cirlce markers reflect the magnitude of each earthquake in both size and color. Earthquakes with higher magnitudes should appear larger and darker in color.
 
