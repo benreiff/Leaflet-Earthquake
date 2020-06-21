@@ -73,35 +73,38 @@ function createMarkers(response) {
   for (var index = 0; index < earthquakes.length; index++) {
     var earthquake = earthquakes[index];
 
-    // For each earthquake, create a marker and bind a popup with the earthquake's name
-    var earthquakeMarker = L.circle([earthquake.geometry.coordinates[1], earthquake.geometry.coordinates[0]], {
-      fillOpacity: .5,
-      color: color,
-      weight: 1,
-      fillColor: color,
-      radius: earthquake.properties.mag * 70000
-    }).bindPopup("<h3> Where: " + earthquake.properties.place + "</h3><hr><p>" + new Date(earthquake.properties.time) + "<br><h3>Magnitude: " + earthquake.properties.mag + "</h3>");
     
     // Designating colors for earthquake magnitudes 
     var color = "";
-    if (earthquake.properties.mag > 5) {
-      color = "#ff0000";
-    }
-    else if (earthquake.properties.mag > 4) {
-      color = "#ffbf00";
-    }
-    else if (earthquake.properties.mag > 3) {
-      color = "#ffbf00";
-    }
-    else if (earthquake.properties.mag > 2) {
-      color = "#40ff00";
-    }
-    else if (earthquake.properties.mag > 1) {
-      color = "#0040ff";
-    }
-    else {
+    if (earthquake.properties.mag < 1) {
       color = "#ff00ff";
     }
+    else if (earthquake.properties.mag >=1 && earthquake.properties.mag < 2) {
+      color = "#0000ff";
+    }
+    else if (earthquake.properties.mag >= 2 && earthquake.properties.mag < 3) {
+      color = "#00ffff";
+    }
+    else if (earthquake.properties.mag >= 3 && earthquake.properties.mag < 4) {
+      color = "#00ff00";
+    }
+    else if (earthquake.properties.mag >= 4 && earthquake.properties.mag < 5) {
+      color = "#ffff00";
+    }
+    else {
+      color = "#ff0000";
+    }
+
+    // For each earthquake, create a marker and bind a popup with the earthquake's name
+    var earthquakeMarker = L.circle([earthquake.geometry.coordinates[1], earthquake.geometry.coordinates[0]], {
+      fillOpacity: .3,
+      color: color,
+      weight: 1,
+      fillColor: color,
+      radius: earthquake.properties.mag * 60000
+    }).bindPopup("<h3> Where: " + earthquake.properties.place + "</h3><hr><p>" + new Date(earthquake.properties.time) + "<br><h3>Magnitude: " + earthquake.properties.mag + "</h3>");
+
+    
 
     // Add the marker to the earthquakeMarkers array
     earthquakeMarkers.push(earthquakeMarker);
