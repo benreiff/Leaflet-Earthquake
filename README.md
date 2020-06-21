@@ -2,7 +2,7 @@
 
 ![1-Logo](Leaflet-Step-1/Images/1-Logo.png)
 
-The USGS provides scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. They collect a massive amount of data from all over the world each day, which I used to visualize updated information about earthquakes in a given 24-hour time period.
+The USGS provides scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. They collect data from all over the world each day. I used that information to create a data visualization for earthquakes.
 
 1. **Choice of a Dataset**
 
