@@ -20,7 +20,7 @@ I created an interactive map using Leaflet that plots all earthquakes from the d
 
 * Circle markers reflect the magnitude of each earthquake in both size and color. Earthquakes with higher magnitudes appear larger and darker in color.
 
-* Popups on each circle marker provide location, time and magnitude of the earthquake when clicked.
+* When clicked, each circle marker produces a popup giving location information, time and magnitude of the earthquake.
 
 ### Copyright
 
