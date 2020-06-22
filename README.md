@@ -22,16 +22,6 @@ I created an interactive map using Leaflet that plots all earthquakes from the d
 
 * Popups on each circle marker provide location, time and magnitude of the earthquake when clicked.
 
-### Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Completion of assigned tasks
-
-* Visual appearance
-
-* Professionalism
-
 ### Copyright
 
-Trilogy Education Services © 2019. All Rights Reserved.
+Ben Reiff © 2020. All Rights Reserved.
